@@ -24,8 +24,8 @@ namespace TransacaoFinanceira
                 new Transacao { correlation_id = 11, datetime = "09/09/2023 14:19:04", conta_origem = 675869708, conta_destino = 573659065, VALOR = 20.09M }
             };
 
-            IRepositorioContas repository = new AcessoDados();
-            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repository);
+            IRepositorioContas repositorio = new AcessoDados();
+            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
 
             foreach (var item in transacoes)
             {

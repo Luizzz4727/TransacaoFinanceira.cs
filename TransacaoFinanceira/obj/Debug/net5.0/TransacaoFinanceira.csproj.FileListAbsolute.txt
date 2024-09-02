@@ -76,3 +76,4 @@ C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira\obj\Debug\net5.0\refint\Tran
 C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.pdb
 C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.genruntimeconfig.cache
 C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira\obj\Debug\net5.0\ref\TransacaoFinanceira.dll
+C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.sourcelink.json

@@ -11,16 +11,16 @@ namespace TransacaoFinanceira.Tests
         [Fact]
         public void Transferir_Valor_Quando_Saldo_Suficiente()
         {
-            IRepositorioContas repository = new AcessoDados();
-            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repository);
+            IRepositorioContas repositorio = new AcessoDados();
+            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
             uint contaOrigem = 938485762; // Conta com saldo de 180
             uint contaDestino = 2147483649; // Conta com saldo de 0
             decimal valorTransferencia = 50;
 
             executor.Transferir(1, contaOrigem, contaDestino, valorTransferencia);
 
-            var saldoOrigem = repository.GetRegistroConta(contaOrigem).GetSaldo();
-            var saldoDestino = repository.GetRegistroConta(contaDestino).GetSaldo();
+            var saldoOrigem = repositorio.GetRegistroConta(contaOrigem).GetSaldo();
+            var saldoDestino = repositorio.GetRegistroConta(contaDestino).GetSaldo();
 
             Assert.Equal(130, saldoOrigem);
             Assert.Equal(50, saldoDestino);
@@ -29,8 +29,8 @@ namespace TransacaoFinanceira.Tests
         [Fact]
         public void Cancelar_Transferencia_Quando_Saldo_Insuficiente()
         {
-            IRepositorioContas repository = new AcessoDados();
-            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repository);
+            IRepositorioContas repositorio = new AcessoDados();
+            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
             uint contaOrigem = 210385733; // Conta com saldo de 10
             uint contaDestino = 238596054; // Conta com saldo de 478
             decimal valorTransferencia = 20;
@@ -46,8 +46,8 @@ namespace TransacaoFinanceira.Tests
 
                 Assert.Equal(expectedMessage, resultMessage);
 
-                var saldoOrigem = repository.GetRegistroConta(contaOrigem).GetSaldo();
-                var saldoDestino = repository.GetRegistroConta(contaDestino).GetSaldo();
+                var saldoOrigem = repositorio.GetRegistroConta(contaOrigem).GetSaldo();
+                var saldoDestino = repositorio.GetRegistroConta(contaDestino).GetSaldo();
 
                 Assert.Equal(10, saldoOrigem);  // Saldo não deve mudar
                 Assert.Equal(478, saldoDestino);  // Saldo não deve mudar
@@ -57,8 +57,8 @@ namespace TransacaoFinanceira.Tests
         [Fact]
         public void Verificar_Se_Conta_Origem_Existe()
         {
-            IRepositorioContas repository = new AcessoDados();
-            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repository);
+            IRepositorioContas repositorio = new AcessoDados();
+            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
             uint contaOrigem = 0; // Conta inexistente
             uint contaDestino = 238596054; // Conta com saldo de 478
             decimal valorTransferencia = 20;
@@ -74,7 +74,7 @@ namespace TransacaoFinanceira.Tests
 
                 Assert.Equal(expectedMessage, resultMessage);
 
-                var saldoDestino = repository.GetRegistroConta(contaDestino).GetSaldo();
+                var saldoDestino = repositorio.GetRegistroConta(contaDestino).GetSaldo();
 
                 Assert.Equal(478, saldoDestino);  // Saldo não deve mudar
             }
@@ -83,8 +83,8 @@ namespace TransacaoFinanceira.Tests
         [Fact]
         public void Verificar_Se_Conta_Destino_Existe()
         {
-            IRepositorioContas repository = new AcessoDados();
-            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repository);
+            IRepositorioContas repositorio = new AcessoDados();
+            IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
             uint contaOrigem = 210385733; // Conta com saldo de 478
             uint contaDestino = 0; // Conta inexistente
             decimal valorTransferencia = 20;
@@ -100,7 +100,7 @@ namespace TransacaoFinanceira.Tests
 
                 Assert.Equal(expectedMessage, resultMessage);
 
-                var saldoOrigem = repository.GetRegistroConta(contaOrigem).GetSaldo();
+                var saldoOrigem = repositorio.GetRegistroConta(contaOrigem).GetSaldo();
 
                 Assert.Equal(10, saldoOrigem);  // Saldo não deve mudar
             }

@@ -8,17 +8,17 @@ namespace TransacaoFinanceira
 {
     public class ExecutarTransacaoFinanceira : IServicoTransacao
     {
-        private readonly IRepositorioContas _repository;
+        private readonly IRepositorioContas _repositorio;
 
-        public ExecutarTransacaoFinanceira(IRepositorioContas repository)
+        public ExecutarTransacaoFinanceira(IRepositorioContas repositorio)
         {
-            _repository = repository;
+            _repositorio = repositorio;
         }
 
         public void Transferir(int correlationId, uint contaOrigem, uint contaDestino, decimal valor)
         {
-            var contaSaldoOrigem = _repository.GetRegistroConta(contaOrigem);
-            var contaSaldoDestino = _repository.GetRegistroConta(contaDestino);
+            var contaSaldoOrigem = _repositorio.GetRegistroConta(contaOrigem);
+            var contaSaldoDestino = _repositorio.GetRegistroConta(contaDestino);
 
             if (contaSaldoOrigem == null)
             {

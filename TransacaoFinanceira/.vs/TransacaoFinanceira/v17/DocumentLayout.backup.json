@@ -1,7 +1,23 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD977D3-A17F-45E9-B0F9-8201C0DFC661}|TransacaoFinanceira.csproj|c:\\users\\luiz\\desktop\\case-itau\\transacaofinanceira\\executartransacaofinanceira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD977D3-A17F-45E9-B0F9-8201C0DFC661}|TransacaoFinanceira.csproj|solutionrelative:executartransacaofinanceira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D4C522-5A4B-4FC1-91E4-25E411F8CEC0}|..\\TransacaoFinanceira.Tests\\TransacaoFinanceira.Tests.csproj|c:\\users\\luiz\\desktop\\case-itau\\transacaofinanceira.tests\\transacaofinanceiratests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD977D3-A17F-45E9-B0F9-8201C0DFC661}|TransacaoFinanceira.csproj|c:\\users\\luiz\\desktop\\case-itau\\transacaofinanceira\\contassaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD977D3-A17F-45E9-B0F9-8201C0DFC661}|TransacaoFinanceira.csproj|solutionrelative:contassaldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD977D3-A17F-45E9-B0F9-8201C0DFC661}|TransacaoFinanceira.csproj|c:\\users\\luiz\\desktop\\case-itau\\transacaofinanceira\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD977D3-A17F-45E9-B0F9-8201C0DFC661}|TransacaoFinanceira.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +25,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExecutarTransacaoFinanceira.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\ExecutarTransacaoFinanceira.cs",
+              "RelativeDocumentMoniker": "ExecutarTransacaoFinanceira.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\ExecutarTransacaoFinanceira.cs",
+              "RelativeToolTip": "ExecutarTransacaoFinanceira.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:51:52.863Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -66,6 +95,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransacaoFinanceiraTests.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira.Tests\\TransacaoFinanceiraTests.cs",
+              "RelativeDocumentMoniker": "..\\TransacaoFinanceira.Tests\\TransacaoFinanceiraTests.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira.Tests\\TransacaoFinanceiraTests.cs",
+              "RelativeToolTip": "..\\TransacaoFinanceira.Tests\\TransacaoFinanceiraTests.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwF8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:43:32.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContasSaldo.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\ContasSaldo.cs",
+              "RelativeDocumentMoniker": "ContasSaldo.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\ContasSaldo.cs",
+              "RelativeToolTip": "ContasSaldo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:42:15.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Case-Itau\\TransacaoFinanceira\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:40:27.723Z",
+              "EditorCaption": ""
             }
           ]
         }
