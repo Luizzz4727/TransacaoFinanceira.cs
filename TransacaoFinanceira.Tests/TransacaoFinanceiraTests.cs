@@ -59,7 +59,7 @@ namespace TransacaoFinanceira.Tests
         {
             IRepositorioContas repositorio = new AcessoDados();
             IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
-            uint contaOrigem = 0; // Conta inexistente
+            uint contaOrigem = 123456789; // Conta inexistente
             uint contaDestino = 238596054; // Conta com saldo de 478
             decimal valorTransferencia = 20;
 
@@ -86,7 +86,7 @@ namespace TransacaoFinanceira.Tests
             IRepositorioContas repositorio = new AcessoDados();
             IServicoTransacao executor = new ExecutarTransacaoFinanceira(repositorio);
             uint contaOrigem = 210385733; // Conta com saldo de 478
-            uint contaDestino = 0; // Conta inexistente
+            uint contaDestino = 987654321; // Conta inexistente
             decimal valorTransferencia = 20;
 
             using (var sw = new StringWriter())

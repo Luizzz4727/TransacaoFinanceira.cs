@@ -210,3 +210,4 @@ C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira.Tests\obj\Debug\net8.0\refin
 C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira.Tests\obj\Debug\net8.0\TransacaoFinanceira.Tests.pdb
 C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira.Tests\obj\Debug\net8.0\TransacaoFinanceira.Tests.genruntimeconfig.cache
 C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira.Tests\obj\Debug\net8.0\ref\TransacaoFinanceira.Tests.dll
+C:\Users\Luiz\Desktop\Case-Itau\TransacaoFinanceira.Tests\obj\Debug\net8.0\TransacaoFinanceira.Tests.sourcelink.json

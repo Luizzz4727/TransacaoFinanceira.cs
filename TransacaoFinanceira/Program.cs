@@ -19,8 +19,8 @@ namespace TransacaoFinanceira
                 new Transacao { correlation_id = 6, datetime = "09/09/2023 14:18:20", conta_origem = 573659065, conta_destino = 563856300, VALOR = 49 },
                 new Transacao { correlation_id = 7, datetime = "09/09/2023 14:19:00", conta_origem = 938485762, conta_destino = 2147483649, VALOR = 44 },
                 new Transacao { correlation_id = 8, datetime = "09/09/2023 14:19:01", conta_origem = 573659065, conta_destino = 675869708, VALOR = 150 },
-                new Transacao { correlation_id = 9, datetime = "09/09/2023 14:19:02", conta_origem = 0, conta_destino = 675869708, VALOR = 47 },
-                new Transacao { correlation_id = 10, datetime = "09/09/2023 14:19:03", conta_origem = 573659065, conta_destino = 0, VALOR = 27 },
+                new Transacao { correlation_id = 9, datetime = "09/09/2023 14:19:02", conta_origem = 123456789, conta_destino = 675869708, VALOR = 47 },
+                new Transacao { correlation_id = 10, datetime = "09/09/2023 14:19:03", conta_origem = 573659065, conta_destino = 987654321, VALOR = 27 },
                 new Transacao { correlation_id = 11, datetime = "09/09/2023 14:19:04", conta_origem = 675869708, conta_destino = 573659065, VALOR = 20.09M }
             };
 
